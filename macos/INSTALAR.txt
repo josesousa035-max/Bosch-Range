@@ -1,0 +1,16 @@
+BOSCH RANGE LAB 3.0 — APPLE SILICON (M1/M2/M3/M4 E POSTERIORES)
+macOS 13 ou superior.
+
+Arraste Bosch Range Lab.app para Applications. Abra a aplicação a partir dessa pasta.
+Os recursos estão incluídos: não precisa de Node.js, Terminal ou Internet para utilizar.
+O serviço estático incorporado só escuta em 127.0.0.1:38471, nunca na rede Wi-Fi.
+
+Esta compilação pessoal tem assinatura ad hoc, sem notarização Apple.
+Não foi testada em macOS pelo ambiente de desenvolvimento Linux.
+Não desative o Gatekeeper nem as proteções do sistema. Distribuição a terceiros
+requer testes no Mac e, idealmente, Developer ID e notarização Apple.
+
+Os dados ficam no armazenamento WebKit desta aplicação. O histórico do Safari,
+Chrome ou versão web não é importado automaticamente: exporte JSON dos passeios
+e importe-o na aplicação. Exporte regularmente backups.
+Compatibilidade PowerMore e configuração Cube 2027 continuam por confirmar.

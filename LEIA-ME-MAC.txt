@@ -1,0 +1,21 @@
+BOSCH RANGE LAB — GERAR INSTALADOR NO MACBOOK AIR M2
+
+Este pacote contém código e um gerador. Não contém ainda um DMG compilado:
+a compilação nativa não pode ser executada no ambiente Linux onde foi preparado.
+
+1. Instale Node.js 24 LTS para Apple Silicon: https://nodejs.org/
+2. No Terminal execute: xcode-select --install
+   Conclua a instalação das ferramentas Apple antes de continuar.
+3. Faça duplo clique em "Criar instalador Mac.command".
+   Alternativa no Terminal, dentro desta pasta:
+   bash scripts/build-macos.sh
+4. Quando terminar, abra a pasta release e o ficheiro
+   Bosch-Range-Lab-3.0.0-Apple-Silicon.dmg
+   Arraste Bosch Range Lab para Aplicações.
+
+A primeira compilação precisa de ligação à Internet. Para utilizar a aplicação
+instalada, não precisa de Node, Terminal ou Internet. Requer macOS 13 ou superior.
+
+A aplicação nativa/DMG ainda têm de ser testados num Mac. A assinatura é pessoal
+(ad hoc), sem notarização Apple. Não desative as proteções do sistema.
+Detalhes: docs/MACOS_DMG.md

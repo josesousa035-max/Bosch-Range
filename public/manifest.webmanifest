@@ -1,0 +1,16 @@
+{
+  "name": "Bosch Range Lab 3.0",
+  "short_name": "Range Lab",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#005b9b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
